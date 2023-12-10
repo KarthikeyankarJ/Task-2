@@ -8,19 +8,27 @@ document and window objects
 Window Object:
 
 The window object represents the browser window or tab that contains the entire web page.
-It is the global object in the browser's JavaScript environment, and properties and methods attached to window are global and can be accessed without explicitly referencing window.
-It encompasses various properties and methods related to the browser window, such as window.innerWidth, window.innerHeight, and functions like window.alert().
+It is the global object in the browser's JavaScript environment, and properties and methods attached to window are 
+global and can be accessed without explicitly referencing window.
+It encompasses various properties and methods related to the browser window, such as window.innerWidth, window.
+innerHeight, and functions like window.alert().
 
-Additionally, global variables declared in the global scope (outside of any function or block) become properties of the window object.
+Additionally, global variables declared in the global scope (outside of any function or block) become properties of
+the window object.
 
 
 Document Object:
 
 The document object represents the entire HTML document loaded in the browser window.
-It is a property of the window object and provides methods and properties to interact with the content and structure of the document.
+It is a property of the window object and provides methods and properties to interact with the content and structure
+of the document.
 Developers use the document object to manipulate HTML elements, change content, modify styles, and handle events.
 
-The document object also includes methods to query and select elements within the document, such as getElementById(), getElementsByClassName(), and querySelector().
+The document object also includes methods to query and select elements within the document, such as getElementById(),
+getElementsByClassName(), and querySelector().
 
 
-while the window object represents the browser window and provides global properties and methods, the document object is a property of the window object that specifically represents the HTML document loaded in the browser. Developers use the window object for global properties and functions, and the document object for manipulating and interacting with the content of the web page.
+while the window object represents the browser window and provides global properties and methods, the document object
+is a property of the window object that specifically represents the HTML document loaded in the browser. Developers 
+use the window object for global properties and functions, and the document object for manipulating and interacting 
+with the content of the web page.
